@@ -1,0 +1,26 @@
+{
+  "name": "goatherd/patch-installer",
+  "type": "composer-installer",
+  "description": "Install package as patch directly to vendor directory",
+  "keywords": [
+    "patch",
+    "composer-installer"
+   ],
+  "homepage": "https://github.com/goatherd/patch-installer",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Maik Penz",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "extra": {
+     "class": "Goatherd\\Patch\\Installer"
+  },
+  "autoload": {
+    "psr-0": {"Goatherd\\Patch\\": ""}
+  }
+}
